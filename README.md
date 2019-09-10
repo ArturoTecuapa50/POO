@@ -1,2 +1,6 @@
 # POO
+ CURSO DEL TEC
  
+ #TAREAS
+
+#PRACTICAS
