@@ -6,7 +6,7 @@ namespace holatec
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("HOLA TEC");
+            Console.WriteLine("HOLA TECNOLOGICO");
         }
     }
 }
