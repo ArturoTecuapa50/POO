@@ -1,0 +1,11 @@
+C:\Users\Dell\Documents\GitHub\POO\POO\holatec\bin\Debug\netcoreapp2.2\holatec.deps.json
+C:\Users\Dell\Documents\GitHub\POO\POO\holatec\bin\Debug\netcoreapp2.2\holatec.runtimeconfig.json
+C:\Users\Dell\Documents\GitHub\POO\POO\holatec\bin\Debug\netcoreapp2.2\holatec.runtimeconfig.dev.json
+C:\Users\Dell\Documents\GitHub\POO\POO\holatec\bin\Debug\netcoreapp2.2\holatec.dll
+C:\Users\Dell\Documents\GitHub\POO\POO\holatec\bin\Debug\netcoreapp2.2\holatec.pdb
+C:\Users\Dell\Documents\GitHub\POO\POO\holatec\obj\Debug\netcoreapp2.2\holatec.csprojAssemblyReference.cache
+C:\Users\Dell\Documents\GitHub\POO\POO\holatec\obj\Debug\netcoreapp2.2\holatec.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\GitHub\POO\POO\holatec\obj\Debug\netcoreapp2.2\holatec.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\GitHub\POO\POO\holatec\obj\Debug\netcoreapp2.2\holatec.AssemblyInfo.cs
+C:\Users\Dell\Documents\GitHub\POO\POO\holatec\obj\Debug\netcoreapp2.2\holatec.dll
+C:\Users\Dell\Documents\GitHub\POO\POO\holatec\obj\Debug\netcoreapp2.2\holatec.pdb
