@@ -1,0 +1,11 @@
+C:\Users\Dell\Documents\GitHub\POO\POO\peliculas\bin\Debug\netcoreapp2.2\peliculas.deps.json
+C:\Users\Dell\Documents\GitHub\POO\POO\peliculas\bin\Debug\netcoreapp2.2\peliculas.runtimeconfig.json
+C:\Users\Dell\Documents\GitHub\POO\POO\peliculas\bin\Debug\netcoreapp2.2\peliculas.runtimeconfig.dev.json
+C:\Users\Dell\Documents\GitHub\POO\POO\peliculas\bin\Debug\netcoreapp2.2\peliculas.dll
+C:\Users\Dell\Documents\GitHub\POO\POO\peliculas\bin\Debug\netcoreapp2.2\peliculas.pdb
+C:\Users\Dell\Documents\GitHub\POO\POO\peliculas\obj\Debug\netcoreapp2.2\peliculas.csprojAssemblyReference.cache
+C:\Users\Dell\Documents\GitHub\POO\POO\peliculas\obj\Debug\netcoreapp2.2\peliculas.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Documents\GitHub\POO\POO\peliculas\obj\Debug\netcoreapp2.2\peliculas.AssemblyInfoInputs.cache
+C:\Users\Dell\Documents\GitHub\POO\POO\peliculas\obj\Debug\netcoreapp2.2\peliculas.AssemblyInfo.cs
+C:\Users\Dell\Documents\GitHub\POO\POO\peliculas\obj\Debug\netcoreapp2.2\peliculas.dll
+C:\Users\Dell\Documents\GitHub\POO\POO\peliculas\obj\Debug\netcoreapp2.2\peliculas.pdb
