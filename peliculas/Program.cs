@@ -4,10 +4,36 @@ namespace peliculas
 {
     class peliculas
     {
-    public string titulo;
-    public Int16 año;
-    public string pais;
-    public string director;       
+    private string titulo;
+    private Int16 año;
+    private string pais;
+    private
+     string director; 
+
+     public void setTitulo(string titulo){
+        this.titulo=titulo;
+    }
+    public string getTitulo(){
+        return this.titulo;
+    }
+    public void setAño(Int16 año){
+        this.año = año;
+    }
+    public Int16 getAño(){
+        return this.año;
+    }
+    public void setPais(string pais){
+        this.pais=pais;
+    }
+    public string getPais(){
+        return this.pais;
+    }
+    public void setDirector(string director){
+        this.director=director;
+    }
+    public string getDirector(){
+        return this.director;
+    }      
     }
     class Program
     {
