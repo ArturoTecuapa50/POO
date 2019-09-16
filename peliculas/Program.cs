@@ -1,7 +1,17 @@
 ﻿using System;
-using System.Coleccion.Generic;
+using System.Collections.Generic;
 namespace peliculas
 {
+    class Actor
+	{
+		public string nombre;
+		public Int16 año;
+		public Actor(string nombre, Int16 año) {
+			this.nombre = nombre;
+			this.año = año;
+		}
+	}
+    
     class peliculas
     {
     private string titulo;
@@ -45,6 +55,15 @@ namespace peliculas
         Console.WriteLine("{0}, {1}", this.getTitulo(), this.getAño());
     }
         
+    private List<Actor> actores = new List<Actor>();
+    public void AgregarActor(Actor actor) {
+			actores.Add(actor);
+	}
+	public void ImprimeActores() {
+			foreach(Actor actor in actores)
+				Console.WriteLine("{0} ({1})", actor.nombre, actor.año);
+	}
+        
     }
     class Program
     {
@@ -52,6 +71,12 @@ namespace peliculas
         {
              peliculas pelis1 = new peliculas("Black Panther",2018);
             pelis1.imprime();
+            
+            peliculas pelis2 = new peliculas("La La Land", 2016);
+			pelis2.AgregarActor(new Actor("Ryan Gosling", 1980));
+			pelis2.AgregarActor(new Actor("Emma Stone", 1988));
+
+			pelis2.ImprimeActores();
         
         }
     }
