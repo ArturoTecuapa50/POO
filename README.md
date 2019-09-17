@@ -5,7 +5,6 @@
 
 ## Seleccionando la que dice downloand .NET Core SDK, esperamos a que se descarge, le damos dobre click y esperamos te saldra una ventana 
 ## Seleccionamos el boton de ejecutar, luego en instalar. Ya que finalice abrimos CMD y aplicamos el codigo dotnet para verificar que se instalo.
-![91l6](https://user-images.githubusercontent.com/54416941/65073213-3fee5480-d947-11e9-9586-bf108197a7ed.png)
 
 # 2.Instalación y configuración de Visual Studio Code para C #.
 
