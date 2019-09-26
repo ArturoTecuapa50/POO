@@ -1,0 +1,11 @@
+C:\Users\ITT\Desktop\POO\espias\bin\Debug\netcoreapp2.1\espias.deps.json
+C:\Users\ITT\Desktop\POO\espias\bin\Debug\netcoreapp2.1\espias.runtimeconfig.json
+C:\Users\ITT\Desktop\POO\espias\bin\Debug\netcoreapp2.1\espias.runtimeconfig.dev.json
+C:\Users\ITT\Desktop\POO\espias\bin\Debug\netcoreapp2.1\espias.dll
+C:\Users\ITT\Desktop\POO\espias\bin\Debug\netcoreapp2.1\espias.pdb
+C:\Users\ITT\Desktop\POO\espias\obj\Debug\netcoreapp2.1\espias.csprojAssemblyReference.cache
+C:\Users\ITT\Desktop\POO\espias\obj\Debug\netcoreapp2.1\espias.csproj.CoreCompileInputs.cache
+C:\Users\ITT\Desktop\POO\espias\obj\Debug\netcoreapp2.1\espias.AssemblyInfoInputs.cache
+C:\Users\ITT\Desktop\POO\espias\obj\Debug\netcoreapp2.1\espias.AssemblyInfo.cs
+C:\Users\ITT\Desktop\POO\espias\obj\Debug\netcoreapp2.1\espias.dll
+C:\Users\ITT\Desktop\POO\espias\obj\Debug\netcoreapp2.1\espias.pdb
