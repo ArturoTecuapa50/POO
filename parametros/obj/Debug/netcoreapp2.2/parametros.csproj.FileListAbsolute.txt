@@ -1,0 +1,11 @@
+C:\Users\Dell\Desktop\POO\parametros\bin\Debug\netcoreapp2.2\parametros.deps.json
+C:\Users\Dell\Desktop\POO\parametros\bin\Debug\netcoreapp2.2\parametros.runtimeconfig.json
+C:\Users\Dell\Desktop\POO\parametros\bin\Debug\netcoreapp2.2\parametros.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\POO\parametros\bin\Debug\netcoreapp2.2\parametros.dll
+C:\Users\Dell\Desktop\POO\parametros\bin\Debug\netcoreapp2.2\parametros.pdb
+C:\Users\Dell\Desktop\POO\parametros\obj\Debug\netcoreapp2.2\parametros.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\POO\parametros\obj\Debug\netcoreapp2.2\parametros.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\POO\parametros\obj\Debug\netcoreapp2.2\parametros.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\POO\parametros\obj\Debug\netcoreapp2.2\parametros.AssemblyInfo.cs
+C:\Users\Dell\Desktop\POO\parametros\obj\Debug\netcoreapp2.2\parametros.dll
+C:\Users\Dell\Desktop\POO\parametros\obj\Debug\netcoreapp2.2\parametros.pdb
