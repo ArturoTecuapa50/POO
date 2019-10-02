@@ -1,0 +1,11 @@
+C:\Users\Dell\Desktop\POO\padre\bin\Debug\netcoreapp2.2\padre.deps.json
+C:\Users\Dell\Desktop\POO\padre\bin\Debug\netcoreapp2.2\padre.runtimeconfig.json
+C:\Users\Dell\Desktop\POO\padre\bin\Debug\netcoreapp2.2\padre.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\POO\padre\bin\Debug\netcoreapp2.2\padre.dll
+C:\Users\Dell\Desktop\POO\padre\bin\Debug\netcoreapp2.2\padre.pdb
+C:\Users\Dell\Desktop\POO\padre\obj\Debug\netcoreapp2.2\padre.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\POO\padre\obj\Debug\netcoreapp2.2\padre.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\POO\padre\obj\Debug\netcoreapp2.2\padre.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\POO\padre\obj\Debug\netcoreapp2.2\padre.AssemblyInfo.cs
+C:\Users\Dell\Desktop\POO\padre\obj\Debug\netcoreapp2.2\padre.dll
+C:\Users\Dell\Desktop\POO\padre\obj\Debug\netcoreapp2.2\padre.pdb
