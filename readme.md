@@ -18,6 +18,6 @@
 
 ## Ingresamos en el navegador git y descargamos la versión para windows y ejecutarlo.
 
-## Para conectarlos en la cuanta de git en tu repositorio te da una opción que dice clonar o descargar te da una copia un enlace lo copias, ahora abre Código visual del estudio en la parte superior viene una pestaña que dice "Ver" le das click luego viene una opción que dice "paleta de comandos" lo seleccionas se habrira un apartado para buscar 
+## Para conectarlos en la cuanta de git en tu repositorio te da una opción que dice clonar o descargar te da una copia un enlace lo copias, ahora abre Código visual del estudio en la parte superior viene una pestaña que dice "Ver" le das click luego viene una opción que dice "paleta de comandos" lo seleccionas se habrira un apartado para buscar.
 
 ## Escribes git y te dara la opción de "git: clone" lo seleccionas y ahora te dice que introduce el enlace de tu repositorio y para terminar seleccionas una carpeta donde se guarda el codigo.
