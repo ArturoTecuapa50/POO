@@ -7,17 +7,20 @@ namespace Domino
         public int b;
 
 
-        public domino(int a, int b){
+        public Domino(int a, int b){
             this.a=a;
             this.b=b;
+        }
+        public static int operator +(Domino a, Domino b){
+            return (a.a+a.b+b.a+b.b);
         }
     }
     class Program
     {
         static void Main(string[] args)
         {
-            domino a= new domino(2,0);
-            domino b= new domino(4,1);
+            Domino a= new Domino(2,0);
+            Domino b= new Domino(4,1);
             Console.WriteLine(a+b);
         }
     }
