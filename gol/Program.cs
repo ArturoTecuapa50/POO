@@ -40,15 +40,44 @@ namespace gol
         {   short cuenta = 0;
             // 1 
             if (renglon > 0  && columna > 0)
-                {
-                  if(  tablero.grid[renglon-1][columna-1].estado_actual == Estado.viva)
+            {
+                if(  tablero.grid[renglon-1][columna-1].estado_actual == Estado.viva){
                       cuenta++;
                 }
-                if(  tablero.grid[renglon-1][columna].estado_actual == Estado.viva)
+                if(  tablero.grid[renglon-1][columna].estado_actual == Estado.viva){
                       cuenta++;
-                if(  tablero.grid[renglon][columna+1].estado_actual == Estado.viva)
+                }
+                if(  tablero.grid[renglon-1][columna+1].estado_actual == Estado.viva){
                       cuenta++;
-                //falta hacer lo mismo para las otras vecinas
+                }
+                //falta hacer lo mismo para las otras vecinas            
+            }
+            if (renglon > 0  && columna > 1)
+            {
+                if(  tablero.grid[renglon1][columna-1].estado_actual == Estado.viva){
+                      cuenta++;
+                }
+                if(  tablero.grid[renglon-1][columna].estado_actual == Estado.viva){
+                      cuenta++;
+                }
+                if(  tablero.grid[renglon-1][columna+1].estado_actual == Estado.viva){
+                      cuenta++;
+                }
+                //falta hacer lo mismo para las otras vecinas            
+            }
+            if (renglon > 0  && columna > 0)
+            {
+                if(  tablero.grid[renglon+1][columna-1].estado_actual == Estado.viva){
+                      cuenta++;
+                }
+                if(  tablero.grid[renglon+1][columna].estado_actual == Estado.viva){
+                      cuenta++;
+                }
+                if(  tablero.grid[renglon+1][columna+1].estado_actual == Estado.viva){
+                      cuenta++;
+                }
+                //falta hacer lo mismo para las otras vecinas            
+            }
             return cuenta;
         } 
 
