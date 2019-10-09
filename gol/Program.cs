@@ -44,6 +44,10 @@ namespace gol
                   if(  tablero.grid[renglon-1][columna-1].estado_actual == Estado.viva)
                       cuenta++;
                 }
+                if(  tablero.grid[renglon-1][columna].estado_actual == Estado.viva)
+                      cuenta++;
+                if(  tablero.grid[renglon][columna+1].estado_actual == Estado.viva)
+                      cuenta++;
                 //falta hacer lo mismo para las otras vecinas
             return cuenta;
         } 
@@ -62,9 +66,7 @@ namespace gol
     
 
     class Tablero {
-        public List<List<Celula >> grid;
-        public short num_columna;
-        public short num_renglones;
+        public List<List<Celula >> grid;       
         public Tablero(short num_renglones, short num_columnas){
               grid = new List<List<Celula>>(); 
               for (short i=0; i<= num_renglones-1; i++)
