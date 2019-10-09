@@ -1,5 +1,4 @@
 ﻿using System;
-using System;
 using System.Collections.Generic;
 
 namespace gol
@@ -27,13 +26,17 @@ namespace gol
         public void actualiza_estado_siguiente(){
             //actualizar estado_siguiente
             //siguiendo las reglas del juego
-            if (num_vecinas() == 1 ){
-                estado_siguiente=Estado.viva;
-            }
+            short vecinas = num_vecinas();
+           if(estado_actual == Estado.viva && (vecinas < 2 || vecinas > 3)) {
+				estado_siguiente = Estado.vacia;
+			}
+			if(estado_actual == Estado.vacia && vecinas == 3) {
+				estado_siguiente = Estado.viva;
+			}
 
         }
 
-        public short num_vecinas()
+       public short num_vecinas()
         {   short cuenta = 0;
             // 1 
             if (renglon > 0  && columna > 0)
@@ -56,9 +59,12 @@ namespace gol
             
         }
     }
+    
 
     class Tablero {
         public List<List<Celula >> grid;
+        public short num_columna;
+        public short num_renglones;
         public Tablero(short num_renglones, short num_columnas){
               grid = new List<List<Celula>>(); 
               for (short i=0; i<= num_renglones-1; i++)
@@ -70,7 +76,7 @@ namespace gol
                  }
               }
 
-        }
+        }      
 
         public void actualiza_estado_todas(){
             foreach(List<Celula> renglon in grid)
@@ -115,7 +121,9 @@ namespace gol
              //actualizar el estado_actual con el siguiente
              //volver a imprimir
              //repetir haciendo una pausa
-             Console.WriteLine(GoL.grid[1][1].num_vecinas());  
+             Console.WriteLine(GoL.grid[1][1].num_vecinas()); 
+             GoL.actualiza_estado_todas();
+				GoL.print(); 
         }
     }
 }
