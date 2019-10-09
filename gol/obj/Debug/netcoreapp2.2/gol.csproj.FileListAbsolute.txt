@@ -1,0 +1,11 @@
+C:\Users\Dell\Desktop\POO\gol\bin\Debug\netcoreapp2.2\gol.deps.json
+C:\Users\Dell\Desktop\POO\gol\bin\Debug\netcoreapp2.2\gol.runtimeconfig.json
+C:\Users\Dell\Desktop\POO\gol\bin\Debug\netcoreapp2.2\gol.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\POO\gol\bin\Debug\netcoreapp2.2\gol.dll
+C:\Users\Dell\Desktop\POO\gol\bin\Debug\netcoreapp2.2\gol.pdb
+C:\Users\Dell\Desktop\POO\gol\obj\Debug\netcoreapp2.2\gol.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\POO\gol\obj\Debug\netcoreapp2.2\gol.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\POO\gol\obj\Debug\netcoreapp2.2\gol.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\POO\gol\obj\Debug\netcoreapp2.2\gol.AssemblyInfo.cs
+C:\Users\Dell\Desktop\POO\gol\obj\Debug\netcoreapp2.2\gol.dll
+C:\Users\Dell\Desktop\POO\gol\obj\Debug\netcoreapp2.2\gol.pdb
