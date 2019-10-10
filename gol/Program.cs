@@ -51,11 +51,11 @@ namespace gol
                 cuenta++;
             }
             //falta hacer lo mismo para las otras vecinas            
-            if(  tablero.verificacion(renglon, columna-1) && tablero.celula_estado_final(renglon -1, columna -1) == Estado.viva){
+            if(  tablero.verificacion(renglon, columna-1) && tablero.celula_estado_final(renglon, columna -1) == Estado.viva){
                 cuenta++;
             }
             
-            if(  tablero.verificacion(renglon, columna +1) && tablero.celula_estado_final(renglon -1, columna +1) == Estado.viva){
+            if(  tablero.verificacion(renglon, columna +1) && tablero.celula_estado_final(renglon, columna +1) == Estado.viva){
                 cuenta++;
             }        
             //falta hacer lo mismo para las otras vecinas            
@@ -72,23 +72,21 @@ namespace gol
             return cuenta;
         } 
 
-         public void print(){
+        public string print(){
            if (this.estado_actual == Estado.vacia){
-                Console.Write("▒");
+                return "▒";
            } 
            else 
            {
-                Console.Write("█");
-           }
-            
+                return "█";
+           }        
         }
     }
     
 
     class Tablero {
         public List<List<Celula >> grid; 
-        public short num_renglones;
-        public short num_columnas;      
+        public short num_renglones, num_columnas;      
         public Tablero(short num_renglones, short num_columnas){
               grid = new List<List<Celula>>(); 
               this.num_renglones = num_renglones;
@@ -109,10 +107,20 @@ namespace gol
             {
                foreach(Celula c in renglon)
                {
+                    c.actualiza_estado_siguiente();
+                }                     
+            }
+        }
+        public void estado_dos(){
+            foreach(List<Celula> renglon in grid)
+            {
+               foreach(Celula c in renglon)
+               {
                     c.actualiza_estado();
                 }                     
             }
         }
+        
         //verificar si cumple la condicion dentro del tablero
         public bool verificacion(int renglon, int columna){
            if((renglon < 0 || renglon >= num_renglones) || (columna < 0 || columna >= num_columnas)) {
@@ -130,6 +138,7 @@ namespace gol
 
 
         //cambia el estado de todas las celdas
+       
 
         public void inserta(Celula c){
                 grid[c.renglon][c.columna] = c;
@@ -155,19 +164,23 @@ namespace gol
         static void Main(string[] args)
         {
              Tablero GoL = new Tablero(10,5);
-             GoL.inserta( new Celula(Estado.viva,GoL, 3,3  ) );
-             GoL.inserta( new Celula(Estado.viva,GoL, 3,2  ) );
              GoL.inserta( new Celula(Estado.viva,GoL, 3,1  ) );
-             GoL.inserta( new Celula(Estado.viva,GoL, 0,0  ) );
-             
+             GoL.inserta( new Celula(Estado.viva,GoL, 3,2  ) );
+             GoL.inserta( new Celula(Estado.viva,GoL, 3,3  ) );
+             //GoL.inserta( new Celula(Estado.viva,GoL, 0,0  ) );
              GoL.print(); 
              //actualizar el estado_siguiente de todas las celulas
              //actualizar el estado_actual con el siguiente
              //volver a imprimir
              //repetir haciendo una pausa
-             Console.WriteLine(GoL.grid[1][1].num_vecinas()); 
+             
              GoL.actualiza_estado_todas();
-			 GoL.print(); 
+             
+             //GoL.print(); 
+            // Console.WriteLine("------------------");
+             GoL.estado_dos();
+             //Console.WriteLine(GoL.grid[1][1].num_vecinas());             
+			 GoL.print();              
         }
     }
 }
