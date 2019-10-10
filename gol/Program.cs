@@ -138,7 +138,13 @@ namespace gol
 
 
         //cambia el estado de todas las celdas
-       
+        public void imprime(){
+            for(int i=0; i< 3; i++){
+                print();
+                actualiza_estado_todas();
+                estado_dos();
+            }
+        }
 
         public void inserta(Celula c){
                 grid[c.renglon][c.columna] = c;
@@ -164,11 +170,11 @@ namespace gol
         static void Main(string[] args)
         {
              Tablero GoL = new Tablero(10,5);
-             GoL.inserta( new Celula(Estado.viva,GoL, 3,1  ) );
-             GoL.inserta( new Celula(Estado.viva,GoL, 3,2  ) );
              GoL.inserta( new Celula(Estado.viva,GoL, 3,3  ) );
-             //GoL.inserta( new Celula(Estado.viva,GoL, 0,0  ) );
-             GoL.print(); 
+             GoL.inserta( new Celula(Estado.viva,GoL, 3,2  ) );
+             GoL.inserta( new Celula(Estado.viva,GoL, 3,1  ) );
+             GoL.inserta( new Celula(Estado.viva,GoL, 0,0  ) );
+             //GoL.print(); 
              //actualizar el estado_siguiente de todas las celulas
              //actualizar el estado_actual con el siguiente
              //volver a imprimir
@@ -176,11 +182,16 @@ namespace gol
              
              GoL.actualiza_estado_todas();
              
-             //GoL.print(); 
-            // Console.WriteLine("------------------");
+             GoL.print(); 
+             Console.WriteLine("------------------");
              GoL.estado_dos();
+            
+             
              //Console.WriteLine(GoL.grid[1][1].num_vecinas());             
-			 GoL.print();              
+			 GoL.print(); 
+             Console.WriteLine("Empieza el ciclo for");
+             GoL.imprime();  
+             GoL.print();            
         }
     }
 }
