@@ -17,6 +17,7 @@ namespace gol
             this.tablero = tablero;
             this.renglon = renglon;
             this.columna = columna;
+            estado_siguiente=inicial;
         }
 
         public void actualiza_estado(){
@@ -27,7 +28,7 @@ namespace gol
             //actualizar estado_siguiente
             //siguiendo las reglas del juego
             short vecinas = num_vecinas();
-           if(estado_actual == Estado.viva && (vecinas < 2 || vecinas > 3)) {
+            if(estado_actual == Estado.viva && (vecinas < 2 || vecinas > 3)) {
 				estado_siguiente = Estado.vacia;
 			}
 			if(estado_actual == Estado.vacia && vecinas == 3) {
@@ -39,49 +40,39 @@ namespace gol
        public short num_vecinas()
         {   short cuenta = 0;
             // 1 
-            if (renglon > 0  && columna > 0)
-            {
-                if(  tablero.grid[renglon-1][columna-1].estado_actual == Estado.viva){
-                      cuenta++;
-                }
-                if(  tablero.grid[renglon-1][columna].estado_actual == Estado.viva){
-                      cuenta++;
-                }
-                if(  tablero.grid[renglon-1][columna+1].estado_actual == Estado.viva){
-                      cuenta++;
-                }
-                //falta hacer lo mismo para las otras vecinas            
+            
+            if(  tablero.verificacion(renglon -1, columna-1) && tablero.celula_estado_final(renglon -1, columna -1) == Estado.viva){
+              cuenta++;
             }
-            if (renglon > 0  && columna > 1)
-            {
-                if(  tablero.grid[renglon1][columna-1].estado_actual == Estado.viva){
-                      cuenta++;
-                }
-                if(  tablero.grid[renglon-1][columna].estado_actual == Estado.viva){
-                      cuenta++;
-                }
-                if(  tablero.grid[renglon-1][columna+1].estado_actual == Estado.viva){
-                      cuenta++;
-                }
-                //falta hacer lo mismo para las otras vecinas            
+            if( tablero.verificacion(renglon -1, columna) && tablero.celula_estado_final(renglon -1, columna ) == Estado.viva){
+                cuenta++;
             }
-            if (renglon > 0  && columna > 0)
-            {
-                if(  tablero.grid[renglon+1][columna-1].estado_actual == Estado.viva){
-                      cuenta++;
-                }
-                if(  tablero.grid[renglon+1][columna].estado_actual == Estado.viva){
-                      cuenta++;
-                }
-                if(  tablero.grid[renglon+1][columna+1].estado_actual == Estado.viva){
-                      cuenta++;
-                }
-                //falta hacer lo mismo para las otras vecinas            
+            if(  tablero.verificacion(renglon -1, columna +1) && tablero.celula_estado_final(renglon -1, columna +1) == Estado.viva){
+                cuenta++;
             }
+            //falta hacer lo mismo para las otras vecinas            
+            if(  tablero.verificacion(renglon, columna-1) && tablero.celula_estado_final(renglon -1, columna -1) == Estado.viva){
+                cuenta++;
+            }
+            
+            if(  tablero.verificacion(renglon, columna +1) && tablero.celula_estado_final(renglon -1, columna +1) == Estado.viva){
+                cuenta++;
+            }        
+            //falta hacer lo mismo para las otras vecinas            
+            if(  tablero.verificacion(renglon +1, columna-1) && tablero.celula_estado_final(renglon +1, columna -1) == Estado.viva){
+                cuenta++;
+            }
+            if(  tablero.verificacion(renglon +1, columna ) && tablero.celula_estado_final(renglon +1, columna ) == Estado.viva){
+                cuenta++;
+            }
+            if(  tablero.verificacion(renglon +1, columna +1) && tablero.celula_estado_final(renglon +1, columna +1) == Estado.viva){
+                cuenta++;
+            }
+            //falta hacer lo mismo para las otras vecinas            
             return cuenta;
         } 
 
-        public void print(){
+         public void print(){
            if (this.estado_actual == Estado.vacia){
                 Console.Write("▒");
            } 
@@ -95,9 +86,13 @@ namespace gol
     
 
     class Tablero {
-        public List<List<Celula >> grid;       
+        public List<List<Celula >> grid; 
+        public short num_renglones;
+        public short num_columnas;      
         public Tablero(short num_renglones, short num_columnas){
               grid = new List<List<Celula>>(); 
+              this.num_renglones = num_renglones;
+              this.num_columnas = num_columnas;
               for (short i=0; i<= num_renglones-1; i++)
               {
                  grid.Add(new List<Celula>()); 
@@ -118,6 +113,22 @@ namespace gol
                 }                     
             }
         }
+        //verificar si cumple la condicion dentro del tablero
+        public bool verificacion(int renglon, int columna){
+           if((renglon < 0 || renglon >= num_renglones) || (columna < 0 || columna >= num_columnas)) {
+                return false;
+            } else {
+                return true;
+            }  
+        }
+
+        //registra el estado si vive esta vacia
+        public Estado celula_estado_final(int renglon, int columna){
+            return grid[renglon][columna].estado_actual;
+
+        }
+
+
         //cambia el estado de todas las celdas
 
         public void inserta(Celula c){
@@ -125,14 +136,16 @@ namespace gol
         }
 
         public void print(){
+            string tablero_de_juego ="";
             foreach(List<Celula> renglon in grid)
             {
                foreach(Celula c in renglon)
                {
-                    c.print();
-                }         
-                Console.WriteLine("");
-            }                  
+                    tablero_de_juego += c.print();
+                } 
+                tablero_de_juego +="\n";        
+            }     
+            Console.WriteLine(tablero_de_juego);             
         } 
     }
 
@@ -154,7 +167,7 @@ namespace gol
              //repetir haciendo una pausa
              Console.WriteLine(GoL.grid[1][1].num_vecinas()); 
              GoL.actualiza_estado_todas();
-				GoL.print(); 
+			 GoL.print(); 
         }
     }
 }
