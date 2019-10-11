@@ -1,0 +1,11 @@
+C:\Users\ITT\Documents\GitHub\POO\Duracion\bin\Debug\netcoreapp2.1\Duracion.deps.json
+C:\Users\ITT\Documents\GitHub\POO\Duracion\bin\Debug\netcoreapp2.1\Duracion.runtimeconfig.json
+C:\Users\ITT\Documents\GitHub\POO\Duracion\bin\Debug\netcoreapp2.1\Duracion.runtimeconfig.dev.json
+C:\Users\ITT\Documents\GitHub\POO\Duracion\bin\Debug\netcoreapp2.1\Duracion.dll
+C:\Users\ITT\Documents\GitHub\POO\Duracion\bin\Debug\netcoreapp2.1\Duracion.pdb
+C:\Users\ITT\Documents\GitHub\POO\Duracion\obj\Debug\netcoreapp2.1\Duracion.csprojAssemblyReference.cache
+C:\Users\ITT\Documents\GitHub\POO\Duracion\obj\Debug\netcoreapp2.1\Duracion.csproj.CoreCompileInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\Duracion\obj\Debug\netcoreapp2.1\Duracion.AssemblyInfoInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\Duracion\obj\Debug\netcoreapp2.1\Duracion.AssemblyInfo.cs
+C:\Users\ITT\Documents\GitHub\POO\Duracion\obj\Debug\netcoreapp2.1\Duracion.dll
+C:\Users\ITT\Documents\GitHub\POO\Duracion\obj\Debug\netcoreapp2.1\Duracion.pdb
