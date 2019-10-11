@@ -28,7 +28,15 @@ namespace Duracion
         Console.WriteLine("minutos totales");
         int suma=hora+m;
         Console.WriteLine("{0}", suma);
-
+        Console.WriteLine("horas a segundos");
+        int segundos=h*3600;
+        Console.WriteLine("{0}", segundos);
+        int minutos=m*60;
+        Console.WriteLine("minutos a segundos");
+        Console.WriteLine("{0}", minutos);
+        Console.WriteLine("segundos totales");
+        int sumas=segundos+minutos+s;
+         Console.WriteLine("{0}", sumas);
 
     }
 
@@ -43,6 +51,7 @@ namespace Duracion
             Duracion T= new Duracion(2, 15, 12);
             T.imprime();
             T.conversion();
+            //
             T.imprime();
             
         }
