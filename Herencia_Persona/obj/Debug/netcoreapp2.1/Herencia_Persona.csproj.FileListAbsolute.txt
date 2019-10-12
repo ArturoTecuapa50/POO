@@ -1,0 +1,11 @@
+C:\Users\ITT\Documents\GitHub\POO\Herencia_Persona\obj\Debug\netcoreapp2.1\Herencia_Persona.csprojAssemblyReference.cache
+C:\Users\ITT\Documents\GitHub\POO\Herencia_Persona\obj\Debug\netcoreapp2.1\Herencia_Persona.csproj.CoreCompileInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\Herencia_Persona\obj\Debug\netcoreapp2.1\Herencia_Persona.AssemblyInfoInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\Herencia_Persona\obj\Debug\netcoreapp2.1\Herencia_Persona.AssemblyInfo.cs
+C:\Users\ITT\Documents\GitHub\POO\Herencia_Persona\bin\Debug\netcoreapp2.1\Herencia_Persona.deps.json
+C:\Users\ITT\Documents\GitHub\POO\Herencia_Persona\bin\Debug\netcoreapp2.1\Herencia_Persona.runtimeconfig.json
+C:\Users\ITT\Documents\GitHub\POO\Herencia_Persona\bin\Debug\netcoreapp2.1\Herencia_Persona.runtimeconfig.dev.json
+C:\Users\ITT\Documents\GitHub\POO\Herencia_Persona\bin\Debug\netcoreapp2.1\Herencia_Persona.dll
+C:\Users\ITT\Documents\GitHub\POO\Herencia_Persona\bin\Debug\netcoreapp2.1\Herencia_Persona.pdb
+C:\Users\ITT\Documents\GitHub\POO\Herencia_Persona\obj\Debug\netcoreapp2.1\Herencia_Persona.dll
+C:\Users\ITT\Documents\GitHub\POO\Herencia_Persona\obj\Debug\netcoreapp2.1\Herencia_Persona.pdb
