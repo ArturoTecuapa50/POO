@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace Musico
 {
 
@@ -13,12 +13,12 @@ namespace Musico
         nombre=n;
 
         }
-        public void Saludo()
+        public void saluda()
         {
         Console.WriteLine("Hola,soy {0}",nombre);
         }
 
-        public void Afina()
+        public virtual void Afina()
         {
             Console.WriteLine("{0},Afina su instrumento ",nombre);
         }
@@ -33,7 +33,7 @@ namespace Musico
        this.bajo=bajo;
        } 
 
-       public new void Afina()
+       public override void Afina()
        {
            Console.WriteLine("{0} esta afinando su bajo {1}",nombre,bajo);
        }
@@ -46,11 +46,19 @@ namespace Musico
             Musico tom=new Musico("Tom");
             Bajista flea=new Bajista("Flea","Gibson");
             
-            tom.Saludo();
-            flea.Saludo();
+            tom.saluda();
+            flea.saluda();
 
             tom.Afina();
             flea.Afina();
+
+            list <Musico> grupo = new list<Musico>();
+            grupo.add(tom);
+            grupo.add(flea);
+            foreach(Musico m in grupo){
+                m.saluda();
+                m.Afina();
+            }
 
         }
     }
