@@ -28,7 +28,7 @@ namespace Musico
     class Bajista:Musico
     {
        private string bajo;
-       public Bajista(string no,string bajo):base(no)
+       public Bajista(string nombre,string bajo):base(nombre)
        {
        this.bajo=bajo;
        } 
