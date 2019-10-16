@@ -33,7 +33,7 @@ namespace Musico
        this.bajo=bajo;
        } 
 
-       public void Afina()
+       public new void Afina()
        {
            Console.WriteLine("{0} esta afinando su bajo {1}",nombre,bajo);
        }
