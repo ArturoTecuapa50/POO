@@ -13,9 +13,9 @@ namespace Musico
         nombre=n;
 
         }
-        public void saluda()
+        public virtual string saluda()
         {
-        Console.WriteLine("Hola,soy {0}",nombre);
+        return string.Format("Hola,soy {0}",nombre);
         }
 
         public virtual void Afina()
@@ -37,6 +37,10 @@ namespace Musico
        {
            Console.WriteLine("{0} esta afinando su bajo {1}",nombre,bajo);
        }
+
+       public override string saluda(){
+           return base.saluda()+"y soy bajista";
+       }
     }
     ///
     class Guitarrista:Musico{
@@ -57,13 +61,12 @@ namespace Musico
             Bajista flea=new Bajista("Flea","Gibson");
             Guitarrista jose=new Guitarrista("Jose","Gibson");
             
-            tom.saluda();
-            flea.saluda();
+            Console.WriteLine(tom.saluda());
+            Console.WriteLine(flea.saluda());
+            Console.WriteLine(jose.saluda());
 
             tom.Afina();
             flea.Afina();
-
-            jose.saluda();
             jose.Afina();
 
             list <Musico> grupo = new list<Musico>();
