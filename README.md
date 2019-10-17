@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 1.Instalación de dotnet core 2.2
 ## Ingresas en el navegador de preferencia dotnet y seleccionas downloand y te saldra esta pantallas
 
@@ -21,3 +22,6 @@
 ## Para conectarlos en la cuanta de git en tu repositorio te da una opción que dice clonar o descargar te da una copia un enlace lo copias, ahora abre Código visual del estudio en la parte superior viene una pestaña que dice "Ver" le das click luego viene una opción que dice "paleta de comandos" lo seleccionas se habrira un apartado para buscar.
 
 ## Escribes git y te dara la opción de "git: clone" lo seleccionas y ahora te dice que introduce el enlace de tu repositorio y para terminar seleccionas una carpeta donde se guarda el codigo.
+=======
+### trabajos
+>>>>>>> a3fd4d685b9a9cea5f4487ae08f5b4141acda26e
