@@ -1,4 +1,4 @@
-﻿1.Instalación de dotnet core 2.2
+1.Instalación de dotnet core 2.2
 Ingresas en el navegador de preferencia dotnet y seleccionas downloand y te saldra esta pantallas
 ! [IMAGEN1] (https://user-images.githubusercontent.com/54416941/64660716-7a5f6b00-d3f6-11e9-93c2-0a8a18913d34.png)
 
