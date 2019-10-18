@@ -1,0 +1,11 @@
+C:\Users\ITT\Documents\GitHub\POO\gol\bin\Debug\netcoreapp2.1\gol.deps.json
+C:\Users\ITT\Documents\GitHub\POO\gol\bin\Debug\netcoreapp2.1\gol.runtimeconfig.json
+C:\Users\ITT\Documents\GitHub\POO\gol\bin\Debug\netcoreapp2.1\gol.runtimeconfig.dev.json
+C:\Users\ITT\Documents\GitHub\POO\gol\bin\Debug\netcoreapp2.1\gol.dll
+C:\Users\ITT\Documents\GitHub\POO\gol\bin\Debug\netcoreapp2.1\gol.pdb
+C:\Users\ITT\Documents\GitHub\POO\gol\obj\Debug\netcoreapp2.1\gol.csprojAssemblyReference.cache
+C:\Users\ITT\Documents\GitHub\POO\gol\obj\Debug\netcoreapp2.1\gol.csproj.CoreCompileInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\gol\obj\Debug\netcoreapp2.1\gol.AssemblyInfoInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\gol\obj\Debug\netcoreapp2.1\gol.AssemblyInfo.cs
+C:\Users\ITT\Documents\GitHub\POO\gol\obj\Debug\netcoreapp2.1\gol.dll
+C:\Users\ITT\Documents\GitHub\POO\gol\obj\Debug\netcoreapp2.1\gol.pdb

@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ITT\\Documents\\GitHub\\POO\\gol\\gol.csproj",
-      "projectName": "gol",
-      "projectPath": "C:\\Users\\ITT\\Documents\\GitHub\\POO\\gol\\gol.csproj",
+      "projectUniqueName": "C:\\Users\\ITT\\Documents\\GitHub\\POO\\Setup\\Setup.csproj",
+      "projectName": "Setup",
+      "projectPath": "C:\\Users\\ITT\\Documents\\GitHub\\POO\\Setup\\Setup.csproj",
       "packagesPath": "C:\\Users\\ITT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ITT\\Documents\\GitHub\\POO\\gol\\obj\\",
+      "outputPath": "C:\\Users\\ITT\\Documents\\GitHub\\POO\\Setup\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
