@@ -10,6 +10,7 @@
 # Practicas.
 ## [Hola tec](./holatec/Program.cs)
 ## [Bici 2](./bici/Program.cs)
+## [Padre](./padre/Program.cs)
 ## [Espias](./espias/Program.cs)
 ## [Domino](./Domino/Program.cs)
 ## [Duracion](./Duracion/Program.cs)
