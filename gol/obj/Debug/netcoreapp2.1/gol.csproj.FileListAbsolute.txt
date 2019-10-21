@@ -9,3 +9,14 @@ C:\Users\ITT\Documents\GitHub\POO\gol\obj\Debug\netcoreapp2.1\gol.AssemblyInfoIn
 C:\Users\ITT\Documents\GitHub\POO\gol\obj\Debug\netcoreapp2.1\gol.AssemblyInfo.cs
 C:\Users\ITT\Documents\GitHub\POO\gol\obj\Debug\netcoreapp2.1\gol.dll
 C:\Users\ITT\Documents\GitHub\POO\gol\obj\Debug\netcoreapp2.1\gol.pdb
+C:\Users\Dell\Desktop\POO\gol\obj\Debug\netcoreapp2.1\gol.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\POO\gol\obj\Debug\netcoreapp2.1\gol.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\POO\gol\obj\Debug\netcoreapp2.1\gol.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\POO\gol\obj\Debug\netcoreapp2.1\gol.AssemblyInfo.cs
+C:\Users\Dell\Desktop\POO\gol\obj\Debug\netcoreapp2.1\gol.dll
+C:\Users\Dell\Desktop\POO\gol\obj\Debug\netcoreapp2.1\gol.pdb
+C:\Users\Dell\Desktop\POO\gol\bin\Debug\netcoreapp2.1\gol.deps.json
+C:\Users\Dell\Desktop\POO\gol\bin\Debug\netcoreapp2.1\gol.runtimeconfig.json
+C:\Users\Dell\Desktop\POO\gol\bin\Debug\netcoreapp2.1\gol.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\POO\gol\bin\Debug\netcoreapp2.1\gol.dll
+C:\Users\Dell\Desktop\POO\gol\bin\Debug\netcoreapp2.1\gol.pdb

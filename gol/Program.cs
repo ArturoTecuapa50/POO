@@ -180,8 +180,8 @@ namespace gol
              //volver a imprimir
              //repetir haciendo una pausa
              
-             GoL.actualiza_estado_todas();
-             
+
+           /*  GoL.actualiza_estado_todas();             
              GoL.print(); 
              Console.WriteLine("------------------");
              GoL.estado_dos();
@@ -191,7 +191,35 @@ namespace gol
 			 GoL.print(); 
              Console.WriteLine("Empieza el ciclo for");
              GoL.imprime();  
-             GoL.print();            
+             GoL.print();      */
+                 
+             int op;
+             Console.WriteLine("1.-Mostrar el estado inicial.");
+             Console.WriteLine("\n2.-Mostrar el estado siguiente.");
+             Console.WriteLine("\n3.-Mostrar con ciclo for.");
+             Console.WriteLine("\n4.-Salir.");
+             op=Convert.ToInt16(Console.ReadLine());
+             switch (op)
+             {
+                case 1:
+                 GoL.actualiza_estado_todas();             
+                 GoL.print();
+                 break;
+                case 2:
+                 GoL.estado_dos();  
+                 GoL.print();
+                 break;
+                case 3:
+                GoL.imprime();
+                GoL.print(); 
+                break;
+                case 4: 
+                Console.WriteLine("Usted decidio salir");
+                break;
+                 default:
+                 Console.WriteLine("opcion erronea");
+                 break;
+             }
         }
     }
 }
