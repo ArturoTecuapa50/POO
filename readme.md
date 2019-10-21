@@ -6,6 +6,7 @@
 ## [Lista de Películas](./practica2/Program.cs)
 ## [Actores](./peliculas/Program.cs)
 ## [Paso de parámetros](./parametros/Program.cs)
+## [Juego de la vida](./gol/Program.cs)
 
 # Practicas.
 ## [Hola tec](./holatec/Program.cs)
