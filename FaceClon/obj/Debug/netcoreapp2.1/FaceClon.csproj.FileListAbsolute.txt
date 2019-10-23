@@ -1,0 +1,4 @@
+C:\Users\ITT\Documents\GitHub\POO\FaceClon\obj\Debug\netcoreapp2.1\FaceClon.csprojAssemblyReference.cache
+C:\Users\ITT\Documents\GitHub\POO\FaceClon\obj\Debug\netcoreapp2.1\FaceClon.csproj.CoreCompileInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\FaceClon\obj\Debug\netcoreapp2.1\FaceClon.AssemblyInfoInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\FaceClon\obj\Debug\netcoreapp2.1\FaceClon.AssemblyInfo.cs
