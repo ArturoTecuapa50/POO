@@ -15,6 +15,7 @@ namespace Duracion
     public Duracion(){
 
     }
+   
     
     public void imprime(){
         Console.WriteLine("{0}: {1}: {2}", h, m, s);

@@ -9,3 +9,14 @@ C:\Users\ITT\Documents\GitHub\POO\Musico\obj\Debug\netcoreapp2.1\Musico.Assembly
 C:\Users\ITT\Documents\GitHub\POO\Musico\obj\Debug\netcoreapp2.1\Musico.AssemblyInfo.cs
 C:\Users\ITT\Documents\GitHub\POO\Musico\obj\Debug\netcoreapp2.1\Musico.dll
 C:\Users\ITT\Documents\GitHub\POO\Musico\obj\Debug\netcoreapp2.1\Musico.pdb
+C:\Users\Dell\Desktop\POO\Musico\obj\Debug\netcoreapp2.1\Musico.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\POO\Musico\obj\Debug\netcoreapp2.1\Musico.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\POO\Musico\obj\Debug\netcoreapp2.1\Musico.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\POO\Musico\obj\Debug\netcoreapp2.1\Musico.AssemblyInfo.cs
+C:\Users\Dell\Desktop\POO\Musico\obj\Debug\netcoreapp2.1\Musico.dll
+C:\Users\Dell\Desktop\POO\Musico\obj\Debug\netcoreapp2.1\Musico.pdb
+C:\Users\Dell\Desktop\POO\Musico\bin\Debug\netcoreapp2.1\Musico.deps.json
+C:\Users\Dell\Desktop\POO\Musico\bin\Debug\netcoreapp2.1\Musico.runtimeconfig.json
+C:\Users\Dell\Desktop\POO\Musico\bin\Debug\netcoreapp2.1\Musico.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\POO\Musico\bin\Debug\netcoreapp2.1\Musico.dll
+C:\Users\Dell\Desktop\POO\Musico\bin\Debug\netcoreapp2.1\Musico.pdb

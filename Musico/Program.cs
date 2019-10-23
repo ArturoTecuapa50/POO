@@ -22,13 +22,17 @@ namespace Musico
         {
             Console.WriteLine("{0},Afina su instrumento ",nombre);
         }
+        public virtual void toca()
+        {
+            Console.WriteLine("{0},toca su instrumento ",nombre);
+        }
 
     }
 
     class Bajista:Musico
     {
        private string bajo;
-       public Bajista(string nombre,string bajo):base(nombre)
+       public Bajista(string no,string bajo):base(no)
        {
        this.bajo=bajo;
        } 
@@ -41,16 +45,24 @@ namespace Musico
        public override string saluda(){
            return base.saluda()+"y soy bajista";
        }
+       public override void toca(){
+           Console.WriteLine("{0} toco el bajo {1}",nombre);
+       }
     }
     ///
     class Guitarrista:Musico{
         private string guitarra;
-        public Guitarrista((string nombre,string guitarra):base(nombre){
+        public Guitarrista(string no,string guitarra):base(no){
             this.guitarra=guitarra;
         }
         public override void Afina(){
             Console.WriteLine("{0} esta afinando su guitarra {1}",nombre,guitarra);
         }
+
+        public override void toca(){
+           Console.WriteLine("{0} toco el bajo {1}",nombre);
+       }
+        
     }
     class Program
     { 
@@ -67,15 +79,18 @@ namespace Musico
 
             tom.Afina();
             flea.Afina();
-            jose.Afina();
+            
+            
 
-            list <Musico> grupo = new list<Musico>();
-            grupo.add(tom);
-            grupo.add(flea);
-            grupo.add(jose);
+            List<Musico> grupo = new List<Musico>();
+            grupo.Add(tom);
+            grupo.Add(flea);
+            grupo.Add(jose);
             foreach(Musico m in grupo){
                 m.saluda();
                 m.Afina();
+                m.toca();
+
             }
 
         }
