@@ -22,24 +22,19 @@ namespace Duracion
     }
 
     public void conversion(){
-        int hora=h*360;
+        int hora=h*60;
         Console.WriteLine("horas a minutos");
         Console.WriteLine("{0}", hora);
-        Console.WriteLine("minutos totales");
-        int suma=hora+m;
-        Console.WriteLine("{0}", suma);
         Console.WriteLine("horas a segundos");
-        int segundos=h*3600;
+        int segundos=h*360;
         Console.WriteLine("{0}", segundos);
         int minutos=m*60;
-        Console.WriteLine("minutos a segundos");
-        Console.WriteLine("{0}", minutos);
-        Console.WriteLine("segundos totales");
-        int sumas=segundos+minutos+s;
-         Console.WriteLine("{0}", sumas);
-
     }
-
+    public static int operator +(Duracion T2 ,Duracion T3){
+     return  ((T2.h+T3.h)*3600)+((T2.m+T3.m)*60)+((T2.s+T3.s));
+  
+    }
+    
     }
 
 
@@ -48,11 +43,19 @@ namespace Duracion
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("primera pelicula");
             Duracion T= new Duracion(2, 15, 12);
             T.imprime();
             T.conversion();
             //
+            Console.WriteLine("segunda pelicula");
+            Duracion T1=new Duracion(2,15,12);
+            T1.imprime();
+            T1.conversion();
+            //
             T.imprime();
+            Console.WriteLine("la duracion de las dos peliculas son : (en segundos)");
+            Console.WriteLine(T+T1);
             
         }
     }
