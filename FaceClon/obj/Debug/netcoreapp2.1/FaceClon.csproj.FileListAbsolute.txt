@@ -2,3 +2,14 @@ C:\Users\ITT\Documents\GitHub\POO\FaceClon\obj\Debug\netcoreapp2.1\FaceClon.cspr
 C:\Users\ITT\Documents\GitHub\POO\FaceClon\obj\Debug\netcoreapp2.1\FaceClon.csproj.CoreCompileInputs.cache
 C:\Users\ITT\Documents\GitHub\POO\FaceClon\obj\Debug\netcoreapp2.1\FaceClon.AssemblyInfoInputs.cache
 C:\Users\ITT\Documents\GitHub\POO\FaceClon\obj\Debug\netcoreapp2.1\FaceClon.AssemblyInfo.cs
+C:\Users\Dell\Desktop\POO\FaceClon\obj\Debug\netcoreapp2.1\FaceClon.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\POO\FaceClon\obj\Debug\netcoreapp2.1\FaceClon.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\POO\FaceClon\obj\Debug\netcoreapp2.1\FaceClon.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\POO\FaceClon\obj\Debug\netcoreapp2.1\FaceClon.AssemblyInfo.cs
+C:\Users\Dell\Desktop\POO\FaceClon\bin\Debug\netcoreapp2.1\FaceClon.deps.json
+C:\Users\Dell\Desktop\POO\FaceClon\bin\Debug\netcoreapp2.1\FaceClon.runtimeconfig.json
+C:\Users\Dell\Desktop\POO\FaceClon\bin\Debug\netcoreapp2.1\FaceClon.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\POO\FaceClon\bin\Debug\netcoreapp2.1\FaceClon.dll
+C:\Users\Dell\Desktop\POO\FaceClon\bin\Debug\netcoreapp2.1\FaceClon.pdb
+C:\Users\Dell\Desktop\POO\FaceClon\obj\Debug\netcoreapp2.1\FaceClon.dll
+C:\Users\Dell\Desktop\POO\FaceClon\obj\Debug\netcoreapp2.1\FaceClon.pdb

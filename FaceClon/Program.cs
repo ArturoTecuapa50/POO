@@ -15,29 +15,57 @@ namespace FaceClon
         public abstract void imprime();
     }
     class foto:Publicacion{
-        public foto(string fecha, string comentarios, string reacciones):base(fecha, comentarios, reacciones){
+        public foto(string fecha, string comentarios, string reacciones):base(fecha,comentarios,reacciones){
 
         }
         public override void imprime(){
-            Console.WriteLine("la foto se imprimira {0}, la fecha es {1}, los cometarios son {2}, la reaccion es {3}",fecha,  comentarios, reacciones);
+            Console.WriteLine("La fecha es: {0} \nEl cometario es: {1} \nLa reaccion es: {2}",fecha,comentarios,reacciones);
         }
         
     }
-    
+    class Estado:Publicacion{
+        public Estado(string fecha, string comentarios, string reacciones):base(fecha,comentarios,reacciones){
+            
+        }
+        public override void imprime(){
+            Console.WriteLine("La fecha de publicacion: {0} \nEl cometario es: {1} \nLa reaccion es: {2}",fecha,comentarios,reacciones);
+        }
+    }
+    class Link:Publicacion{
+        public Link(string fecha, string comentarios, string reacciones):base(fecha,comentarios,reacciones){
+            
+        }
+        public override void imprime(){
+            Console.WriteLine("La fecha de publicacion: {0} \nEl cometario es: {1} \nLa reaccion es: {2}",fecha,comentarios,reacciones);
+        }
+    }
 
 
     class Program
     {
         static void Main(string[] args)
         {
-           
 
-
-
-            List<Publicacion> Publicacion= new List<Publicacion>();
-            Publicacion.Add(new foto(10,10));
+            foto f= new foto("12/10/14","Que bueno que esten bien","Me asombra");
+            //f.imprime();
+            //
+            Estado e=new Estado("21/03/19","Que cool foto","Me divierte");
+            //e.imprime();
+            //
+            Link l=new Link("31/10/19","Que buen disfraz de hallowin!!!!","Me encanta");
+            //l.imprime();
 
            // Console.WriteLine("Hello World!");
+            
+
+            List<Publicacion> o = new List<Publicacion>();
+            o.Add(f);
+            o.Add(e);
+            o.Add(l);
+            foreach(Publicacion p in o)
+            {
+                p.imprime();
+            }
         }
     }
 }
