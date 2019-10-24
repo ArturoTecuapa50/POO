@@ -1,0 +1,11 @@
+C:\Users\Dell\Desktop\POO\Alumnos\bin\Debug\netcoreapp2.2\Alumnos.deps.json
+C:\Users\Dell\Desktop\POO\Alumnos\bin\Debug\netcoreapp2.2\Alumnos.runtimeconfig.json
+C:\Users\Dell\Desktop\POO\Alumnos\bin\Debug\netcoreapp2.2\Alumnos.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\POO\Alumnos\bin\Debug\netcoreapp2.2\Alumnos.dll
+C:\Users\Dell\Desktop\POO\Alumnos\bin\Debug\netcoreapp2.2\Alumnos.pdb
+C:\Users\Dell\Desktop\POO\Alumnos\obj\Debug\netcoreapp2.2\Alumnos.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\POO\Alumnos\obj\Debug\netcoreapp2.2\Alumnos.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\POO\Alumnos\obj\Debug\netcoreapp2.2\Alumnos.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\POO\Alumnos\obj\Debug\netcoreapp2.2\Alumnos.AssemblyInfo.cs
+C:\Users\Dell\Desktop\POO\Alumnos\obj\Debug\netcoreapp2.2\Alumnos.dll
+C:\Users\Dell\Desktop\POO\Alumnos\obj\Debug\netcoreapp2.2\Alumnos.pdb
