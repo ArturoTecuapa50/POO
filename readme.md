@@ -7,6 +7,7 @@
 ## [Actores](./peliculas/Program.cs)
 ## [Paso de parámetros](./parametros/Program.cs)
 ## [Juego de la vida](./gol/Program.cs)
+## [Alumnos](./Alumnos/Program.cs)
 
 # Practicas.
 ## [Hola tec](./holatec/Program.cs)
@@ -18,3 +19,4 @@
 ## [Herencia persona](./Herencia_Persona/Program.cs)
 ## [Musico](./Musico/Program.cs)
 ## [Figuras](./Figuras/Program.cs)
+## [FaceClon](./FaceClon/Program.cs)

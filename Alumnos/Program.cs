@@ -43,6 +43,7 @@ namespace Alumnos
             
             Console.WriteLine(p.datos_alumno());
             Console.WriteLine(l.datos_alumno());
+
         }
     }
 }
