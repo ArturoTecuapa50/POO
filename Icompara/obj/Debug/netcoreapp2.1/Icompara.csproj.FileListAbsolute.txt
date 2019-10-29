@@ -1,0 +1,11 @@
+C:\Users\ITT\Documents\GitHub\POO\Icompara\obj\Debug\netcoreapp2.1\Icompara.csprojAssemblyReference.cache
+C:\Users\ITT\Documents\GitHub\POO\Icompara\obj\Debug\netcoreapp2.1\Icompara.csproj.CoreCompileInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\Icompara\obj\Debug\netcoreapp2.1\Icompara.AssemblyInfoInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\Icompara\obj\Debug\netcoreapp2.1\Icompara.AssemblyInfo.cs
+C:\Users\ITT\Documents\GitHub\POO\Icompara\bin\Debug\netcoreapp2.1\Icompara.deps.json
+C:\Users\ITT\Documents\GitHub\POO\Icompara\bin\Debug\netcoreapp2.1\Icompara.runtimeconfig.json
+C:\Users\ITT\Documents\GitHub\POO\Icompara\bin\Debug\netcoreapp2.1\Icompara.runtimeconfig.dev.json
+C:\Users\ITT\Documents\GitHub\POO\Icompara\bin\Debug\netcoreapp2.1\Icompara.dll
+C:\Users\ITT\Documents\GitHub\POO\Icompara\bin\Debug\netcoreapp2.1\Icompara.pdb
+C:\Users\ITT\Documents\GitHub\POO\Icompara\obj\Debug\netcoreapp2.1\Icompara.dll
+C:\Users\ITT\Documents\GitHub\POO\Icompara\obj\Debug\netcoreapp2.1\Icompara.pdb

@@ -86,6 +86,7 @@ namespace Musico
             grupo.Add(tom);
             grupo.Add(flea);
             grupo.Add(jose);
+            //grupo.sort(); <----- los ordena alfabeticamente 
             foreach(Musico m in grupo){
                 m.saluda();
                 m.Afina();
