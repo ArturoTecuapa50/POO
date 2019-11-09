@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ITT\\Documents\\GitHub\\POO\\POO.csproj",
-      "projectName": "POO",
-      "projectPath": "C:\\Users\\ITT\\Documents\\GitHub\\POO\\POO.csproj",
+      "projectUniqueName": "C:\\Users\\ITT\\Documents\\GitHub\\POO\\Stack\\Stack.csproj",
+      "projectName": "Stack",
+      "projectPath": "C:\\Users\\ITT\\Documents\\GitHub\\POO\\Stack\\Stack.csproj",
       "packagesPath": "C:\\Users\\ITT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ITT\\Documents\\GitHub\\POO\\obj\\",
+      "outputPath": "C:\\Users\\ITT\\Documents\\GitHub\\POO\\Stack\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
