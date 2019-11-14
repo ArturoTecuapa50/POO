@@ -22,7 +22,18 @@ namespace Errores
             {
                 Console.WriteLine("formato incorrecto");
             }
-           
+            Console.ReadKey();
+            try
+            {
+                string captura=Console.ReadLine();
+                valor =int.Parse(captura);
+                Console.WriteLine(valor);
+            }
+            catch(OverflowException)
+            {
+                Console.WriteLine("formato incorrecto");
+            }
+            Console.ReadKey();
         }
     }
 }
