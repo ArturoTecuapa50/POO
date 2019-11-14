@@ -6,7 +6,12 @@ namespace Errores
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int valor;
+            Console.WriteLine("ingresa tu edad: ");
+            string captura=Console.ReadLine();
+            valor =int.Parse(captura);
+            Console.WriteLine("En diez años tendras {0}", valor+10);
+            Console.ReadKey();
         }
     }
 }
