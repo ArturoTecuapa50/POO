@@ -10,7 +10,7 @@ namespace Errores
             Console.WriteLine("ingresa tu edad: ");
             string captura=Console.ReadLine();
             valor =int.Parse(captura);
-            Console.WriteLine("En diez años tendras {0}", valor+10);
+            Console.WriteLine("En diez años tendras {0}", 100/valor);
             Console.ReadKey();
         }
     }
