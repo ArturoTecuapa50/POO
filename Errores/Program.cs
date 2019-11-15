@@ -2,6 +2,10 @@
 
 namespace Errores
 {
+    class NegativeIntergerExcepiton:Exception{
+        public NegativeIntergerExcepiton():base("No debes capturar enteros negativos")
+        {}
+    }
     class Program
     {
         static void Main(string[] args)
@@ -33,17 +37,23 @@ namespace Errores
                 Console.WriteLine("formato incorrecto");
             }
             Console.ReadKey();*/
-            Console.WriteLine("captura un entero:  ");
+            Console.WriteLine("captura un entero positivo:  ");
             int valor=0;
             try {
                 valor = int.Parse(Console.ReadLine());
+                if(valor<0){
+                    throw new NegativeIntergerExcepiton();
+                }
+                Console.WriteLine("el valor es: {0}", valor);
             }
-            catch(System.OverflowException e){
-                Console.WriteLine("hubo un error");
+            catch( Exception e){
+                Console.WriteLine("Hubo un error");
                 Console.WriteLine(e.Message);
-
             }
-            Console.WriteLine("el valor es: {0}", valor);
+            finally{
+                Console.WriteLine("Finally");
+            }
+            
         }
     }
 }
