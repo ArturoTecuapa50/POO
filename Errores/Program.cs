@@ -8,7 +8,7 @@ namespace Errores
     }
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             /*int valor;
             Console.WriteLine("ingresa tu edad: ");
@@ -45,6 +45,7 @@ namespace Errores
                     throw new NegativeIntergerExcepiton();
                 }
                 Console.WriteLine("el valor es: {0}", valor);
+                Main();
             }
             catch( Exception e){
                 Console.WriteLine("Hubo un error");
