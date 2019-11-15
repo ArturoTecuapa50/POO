@@ -34,7 +34,15 @@ namespace Errores
             }
             Console.ReadKey();*/
             Console.WriteLine("captura un entero:  ");
-            int valor = int.Parse(Console.ReadLine());
+            int valor=0;
+            try {
+                valor = int.Parse(Console.ReadLine());
+            }
+            catch(System.OverflowException e){
+                Console.WriteLine("hubo un error");
+                Console.WriteLine(e.Message);
+
+            }
             Console.WriteLine("el valor es: {0}", valor);
         }
     }
