@@ -6,7 +6,7 @@ namespace Errores
     {
         static void Main(string[] args)
         {
-            int valor;
+            /*int valor;
             Console.WriteLine("ingresa tu edad: ");
             //string captura=Console.ReadLine();
             //valor =int.Parse(captura);
@@ -22,7 +22,6 @@ namespace Errores
             {
                 Console.WriteLine("formato incorrecto");
             }
-            Console.ReadKey();
             try
             {
                 string captura=Console.ReadLine();
@@ -33,7 +32,10 @@ namespace Errores
             {
                 Console.WriteLine("formato incorrecto");
             }
-            Console.ReadKey();
+            Console.ReadKey();*/
+            Console.WriteLine("captura un entero:  ");
+            int valor = int.Parse(Console.ReadLine());
+            Console.WriteLine("el valor es: {0}", valor);
         }
     }
 }
