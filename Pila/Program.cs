@@ -31,15 +31,7 @@ namespace Stack
     {
         static void Main(string[] args)
         {
-            Pila<string>cosas=new Pila<string>(4);
-            cosas.Push("pluma roja");
-            cosas.Push("pluma azul");
-            cosas.Push("pluma negra");
-
-            Console.Write(cosas.Pop());
-            Console.Write(cosas.Pop());
-            Console.Write(cosas.Pop());
-
+            Console.WriteLine("Hello World!");
         }
     }
 }
