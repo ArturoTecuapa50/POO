@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Icompara")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Errores")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Icompara")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Icompara")]
+[assembly: System.Reflection.AssemblyProductAttribute("Errores")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Errores")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
