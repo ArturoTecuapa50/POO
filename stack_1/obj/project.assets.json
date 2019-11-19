@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\POO\\Pila\\Stack.csproj",
-      "projectName": "Stack",
-      "projectPath": "C:\\Users\\Dell\\Desktop\\POO\\Pila\\Stack.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\POO\\stack_1\\stack_1.csproj",
+      "projectName": "stack_1",
+      "projectPath": "C:\\Users\\Dell\\Desktop\\POO\\stack_1\\stack_1.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dell\\Desktop\\POO\\Pila\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Desktop\\POO\\stack_1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

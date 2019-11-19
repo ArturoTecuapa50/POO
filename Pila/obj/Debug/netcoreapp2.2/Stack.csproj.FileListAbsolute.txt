@@ -1,0 +1,4 @@
+C:\Users\Dell\Desktop\POO\Pila\obj\Debug\netcoreapp2.2\Stack.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\POO\Pila\obj\Debug\netcoreapp2.2\Stack.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\POO\Pila\obj\Debug\netcoreapp2.2\Stack.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\POO\Pila\obj\Debug\netcoreapp2.2\Stack.AssemblyInfo.cs

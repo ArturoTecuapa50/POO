@@ -1,0 +1,11 @@
+C:\Users\Dell\Desktop\POO\stack_1\obj\Debug\netcoreapp2.2\stack_1.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\POO\stack_1\obj\Debug\netcoreapp2.2\stack_1.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\POO\stack_1\obj\Debug\netcoreapp2.2\stack_1.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\POO\stack_1\obj\Debug\netcoreapp2.2\stack_1.AssemblyInfo.cs
+C:\Users\Dell\Desktop\POO\stack_1\bin\Debug\netcoreapp2.2\stack_1.deps.json
+C:\Users\Dell\Desktop\POO\stack_1\bin\Debug\netcoreapp2.2\stack_1.runtimeconfig.json
+C:\Users\Dell\Desktop\POO\stack_1\bin\Debug\netcoreapp2.2\stack_1.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\POO\stack_1\bin\Debug\netcoreapp2.2\stack_1.dll
+C:\Users\Dell\Desktop\POO\stack_1\bin\Debug\netcoreapp2.2\stack_1.pdb
+C:\Users\Dell\Desktop\POO\stack_1\obj\Debug\netcoreapp2.2\stack_1.dll
+C:\Users\Dell\Desktop\POO\stack_1\obj\Debug\netcoreapp2.2\stack_1.pdb
