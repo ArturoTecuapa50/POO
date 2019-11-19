@@ -8,9 +8,14 @@ namespace creadir
         {
             Console.WriteLine("capturar el folder a crear");
 
-            String directorio=Console.ReadLine();
+            string directorio=Console.ReadLine();
 
             Directory.CreateDirectory(directorio);
+            if (Directory.Exists(directorio)){
+                Console.WriteLine("ya existe directorio");
+            }else{
+                Directory.CreateDirectory(directorio);
+            }
            
         }
     }
