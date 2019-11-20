@@ -2,36 +2,65 @@
 
 namespace Stack
 {
-    public class Pila <T>{
-        readonly int tamaño;
-        int apuntador =0;
-        T[] elementos;
-        public Pila(int size){
-            tamaño=size;
-            elementos=new T[tamaño];
-        }
-    public void Push(T elementos){
-    if (apuntador<tamaño){
-        elementos[apuntador]=elementos;
-        apuntador++;
-    }
-    else
+  class Stack<T>
     {
-        //error
-    }
-    }
-    public T Pop(){
-        if (apuntador<tamaño){
-        apuntador --;
+  
+     private T[] elementos;
+     readonly int tamaño;
+     private int apuntador=0;
+    
+     public Stack():this(100)
+     {
+     }
+     public Stack(int size)
+     {
+         tamaño=size;
+         elementos=new T[tamaño];
+     }
+
+     public void Push(T elemento)
+     {         
+        if(apuntador>=tamaño)
+        {
+            throw new StackOverflowException();
+        }
+        {
+            elementos[apuntador]=elemento;
+            apuntador++;           
+        }
+     }  
+
+    public T Pop()
+    {
+        apuntador--;
+        if(apuntador>=0)
+        {         
         return elementos[apuntador];
         }
+        else{
+            apuntador=0;
+            throw new InvalidOperationException("stack vacio");
+        }
+        
     }
-    }    
+    }
+
+
+
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Stack<string> cosas= new Stack<string>(4); 
+           
+            cosas.Push("uno");
+            cosas.Push("dos");
+            cosas.Push("tres");
+
+            Console.Write(cosas.Pop());
+            Console.Write(cosas.Pop());
+            Console.Write(cosas.Pop());
+            
         }
     }
 }

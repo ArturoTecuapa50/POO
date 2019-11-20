@@ -2,3 +2,10 @@ C:\Users\Dell\Desktop\POO\Pila\obj\Debug\netcoreapp2.2\Stack.csprojAssemblyRefer
 C:\Users\Dell\Desktop\POO\Pila\obj\Debug\netcoreapp2.2\Stack.csproj.CoreCompileInputs.cache
 C:\Users\Dell\Desktop\POO\Pila\obj\Debug\netcoreapp2.2\Stack.AssemblyInfoInputs.cache
 C:\Users\Dell\Desktop\POO\Pila\obj\Debug\netcoreapp2.2\Stack.AssemblyInfo.cs
+C:\Users\Dell\Desktop\POO\Pila\bin\Debug\netcoreapp2.2\Stack.deps.json
+C:\Users\Dell\Desktop\POO\Pila\bin\Debug\netcoreapp2.2\Stack.runtimeconfig.json
+C:\Users\Dell\Desktop\POO\Pila\bin\Debug\netcoreapp2.2\Stack.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\POO\Pila\bin\Debug\netcoreapp2.2\Stack.dll
+C:\Users\Dell\Desktop\POO\Pila\bin\Debug\netcoreapp2.2\Stack.pdb
+C:\Users\Dell\Desktop\POO\Pila\obj\Debug\netcoreapp2.2\Stack.dll
+C:\Users\Dell\Desktop\POO\Pila\obj\Debug\netcoreapp2.2\Stack.pdb

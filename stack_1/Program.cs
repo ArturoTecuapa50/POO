@@ -5,9 +5,9 @@ namespace stack_1
   class Stack<T>
     {
   
-     private T[] elementos;
+     T[] elementos;
      readonly int tamaño;
-     private int apuntador=0;
+     int apuntador=0;
     
      public Stack():this(100)
      {
@@ -31,39 +31,38 @@ namespace stack_1
      }  
 
     public T Pop()
-    {
+    {        
+        if(apuntador>0)
+        {      
+        T elemento=elementos[0];
+        for (int i = 1; i < apuntador; i++){
+            elementos[i-1]=elementos[i];
+        }   
         apuntador--;
-        if(apuntador>=0)
-        {         
-        return elementos[apuntador];
+        return elemento;
         }
         else{
             apuntador=0;
             throw new InvalidOperationException("stack vacio");
         }
     }
-
     }
-
-
 
     class Program
     {
         static void Main(string[] args)
         {
-            Stack<string> cosas= new Stack<string>(4); 
+            Stack<int> cosas= new Stack<int>(4); 
            
-            cosas.Push("pluma roja");
-            cosas.Push("pluma azul");
-            cosas.Push("pluma negra");
+            cosas.Push(1);
+            cosas.Push(2);
+            cosas.Push(3);
 
             Console.Write(cosas.Pop());
             Console.Write(cosas.Pop());
-            Console.Write(cosas.Pop());
+            Console.Write(cosas.Pop());   
             
-          
-          
-    
+ 
         }
     }
 }

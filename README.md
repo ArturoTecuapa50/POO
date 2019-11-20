@@ -8,6 +8,8 @@
 ## [Paso de parámetros](./parametros/Program.cs)
 ## [Juego de la vida](./gol/Program.cs)
 ## [Alumnos](./Alumnos/Program.cs)
+## [Stack](./Pila/Program.cs)
+## [Cola](./stack_1/Program.cs)
 
 # Practicas.
 ## [Hola tec](./holatec/Program.cs)
