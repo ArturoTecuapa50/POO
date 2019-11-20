@@ -1,0 +1,3 @@
+C:\Users\ITT\Documents\GitHub\POO\obj\Debug\netcoreapp3.0\POO.csprojAssemblyReference.cache
+C:\Users\ITT\Documents\GitHub\POO\obj\Debug\netcoreapp3.0\POO.AssemblyInfoInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\obj\Debug\netcoreapp3.0\POO.AssemblyInfo.cs
