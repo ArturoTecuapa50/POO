@@ -1,0 +1,11 @@
+C:\Users\Dell\Desktop\POO\creadir\obj\Debug\netcoreapp2.2\creadir.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\POO\creadir\obj\Debug\netcoreapp2.2\creadir.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\POO\creadir\obj\Debug\netcoreapp2.2\creadir.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\POO\creadir\obj\Debug\netcoreapp2.2\creadir.AssemblyInfo.cs
+C:\Users\Dell\Desktop\POO\creadir\bin\Debug\netcoreapp2.2\creadir.deps.json
+C:\Users\Dell\Desktop\POO\creadir\bin\Debug\netcoreapp2.2\creadir.runtimeconfig.json
+C:\Users\Dell\Desktop\POO\creadir\bin\Debug\netcoreapp2.2\creadir.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\POO\creadir\bin\Debug\netcoreapp2.2\creadir.dll
+C:\Users\Dell\Desktop\POO\creadir\bin\Debug\netcoreapp2.2\creadir.pdb
+C:\Users\Dell\Desktop\POO\creadir\obj\Debug\netcoreapp2.2\creadir.dll
+C:\Users\Dell\Desktop\POO\creadir\obj\Debug\netcoreapp2.2\creadir.pdb
