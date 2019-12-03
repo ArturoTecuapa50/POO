@@ -1,0 +1,4 @@
+aqw,|lapiz azul W2|12.23|2|20
+aqw,|lapiz verde W2|12.23|2|20
+aqw,|pluma azul|12.23|2|20
+aqw,|borrador|12.23|2|20
