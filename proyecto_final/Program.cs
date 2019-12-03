@@ -90,23 +90,22 @@ namespace proyecto_final
             FileStream fs=new FileStream("productos.txt",FileMode.Append, FileAccess.Write);
             StreamWriter txtOut = new StreamWriter(fs);
             foreach(producto p in productos){
-               txtOut.WriteLine("{0},|{1}|{2}|{3}|{4}",p.codigo,p.descripcion,p.precio,p.departamento,p.likes);
+                txtOut.WriteLine("{0},|{1}|{2}|{3}|{4}",p.codigo,p.descripcion,p.precio,p.departamento,p.likes);
             }
-           txtOut.Close();
-           Console.ReadKey();
+            txtOut.Close();
+            Console.ReadKey();
            ///
             ProductoArchivo.EscribeProductosBIN(@"productos.bin", productos);
             List<producto> productos_leidos = ProductoArchivo.LeeProductosBIN("producto.bin");
-
             foreach(producto p in productos_leidos){    
-             Console.WriteLine("{0} {1} {2} {3} {4}", p.codigo,p.descripcion,p.precio,p.descripcion,p.likes);
+                Console.WriteLine("{0} {1} {2} {3} {4}", p.codigo,p.descripcion,p.precio,p.descripcion,p.likes);
             }
         }
     }
 }
-/*1. Debes guardar los datos en un archivo tipo TEXTO.
+/*1. Debes guardar los datos en un archivo tipo TEXTO.+
 
-2. También en un archivo tipo BINARIO.
+2. También en un archivo tipo BINARIO.+
 
 3. Haz un método llamado GetDepartment(int Depto) que lea los productos del archivo, pero muestre en pantalla solo los 
 
