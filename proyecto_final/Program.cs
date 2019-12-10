@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-namespace proyecto
+namespace proyecto_final
 {
 	class Producto
 	{
@@ -25,42 +25,82 @@ namespace proyecto
 		public List<Producto> productos = new List<Producto>();
 
 		public void EscribeProductosTXT(string archivo){
-			FileStream fs=new FileStream(archivo,FileMode.OpenOrCreate,FileAccess.Write);	//crea archivo
-			using(StreamWriter txtOut=new StreamWriter(fs)){//transcribe
-				foreach(Producto p in productos){
-					txtOut.WriteLine("{0}|{1}|{2}|{3}|{4}",p.codigo,p.descripcion,p.precio,p.departamento,p.likes);
-				}
-			}			
+			try
+			{
+				FileStream fs=new FileStream(archivo,FileMode.OpenOrCreate,FileAccess.Write);	//crea archivo
+				using(StreamWriter txtOut=new StreamWriter(fs)){//transcribe
+					foreach(Producto p in productos){
+						txtOut.WriteLine("{0}|{1}|{2}|{3}|{4}",p.codigo,p.descripcion,p.precio,p.departamento,p.likes);
+					}
+				}			
+			}
+			catch( Exception e){
+                Console.WriteLine("Hubo un error");
+                Console.WriteLine(e.Message);
+            }
+            finally{
+                Console.WriteLine("");
+            }	
 		}
-		public void LeerProductosTXT(string archivo){			
-			FileStream fs1=new FileStream(archivo,FileMode.Open,FileAccess.Read);
-			using(StreamReader txtOut=new StreamReader(fs1)){
-				string line;				
-				while((line = txtOut.ReadLine()) != null){//para que valla checando renglon x renglon
-					string[] columnas = line.Split("|");//para dividir el constructor
-					productos.Add(new Producto(columnas[0], columnas[1], decimal.Parse(columnas[2]), int.Parse(columnas[3]), int.Parse(columnas[4])));
+		public void LeerProductosTXT(string archivo){
+			try
+			{			
+				FileStream fs1=new FileStream(archivo,FileMode.Open,FileAccess.Read);
+				using(StreamReader txtOut=new StreamReader(fs1)){
+					string line;				
+					while((line = txtOut.ReadLine()) != null){//para que valla checando renglon x renglon
+						string[] columnas = line.Split("|");//para dividir el constructor
+						productos.Add(new Producto(columnas[0], columnas[1], decimal.Parse(columnas[2]), int.Parse(columnas[3]), int.Parse(columnas[4])));
+					}
 				}
 			}
+			catch( Exception e){
+                Console.WriteLine("Hubo un error");
+                Console.WriteLine(e.Message);
+            }
+            finally{
+                Console.WriteLine("");
+            }	
 		}
 		public void EscribeProductosBIN(string archivo){
-			FileStream fs=new FileStream(archivo,FileMode.OpenOrCreate,FileAccess.Write);
-			using(BinaryWriter binOut=new BinaryWriter(fs)){//Crea un escritor para el archivo
-				foreach(Producto p in productos){
-					binOut.Write(p.codigo);
-					binOut.Write(p.descripcion);
-					binOut.Write(p.precio);
-					binOut.Write(p.departamento);
-					binOut.Write(p.likes);
+			try
+			{
+				FileStream fs=new FileStream(archivo,FileMode.OpenOrCreate,FileAccess.Write);
+				using(BinaryWriter binOut=new BinaryWriter(fs)){//Crea un escritor para el archivo
+					foreach(Producto p in productos){
+						binOut.Write(p.codigo);
+						binOut.Write(p.descripcion);
+						binOut.Write(p.precio);
+						binOut.Write(p.departamento);
+						binOut.Write(p.likes);
+					}
 				}
 			}
+			catch( Exception e){
+                Console.WriteLine("Hubo un error");
+                Console.WriteLine(e.Message);
+            }
+            finally{
+                Console.WriteLine("");
+            }	
 		}
 		public void LeerProductosBIN(string archivo){
-			FileStream fs1=new FileStream(archivo,FileMode.Open,FileAccess.Read);
-			using(BinaryReader binIn=new BinaryReader(fs1)) {
-				while(binIn.PeekChar() != -1){
-					productos.Add(new Producto(binIn.ReadString(), binIn.ReadString(), binIn.ReadDecimal(), binIn.ReadInt32(), binIn.ReadInt32()));
+			try
+			{
+				FileStream fs1=new FileStream(archivo,FileMode.Open,FileAccess.Read);
+				using(BinaryReader binIn=new BinaryReader(fs1)) {
+					while(binIn.PeekChar() != -1){
+						productos.Add(new Producto(binIn.ReadString(), binIn.ReadString(), binIn.ReadDecimal(), binIn.ReadInt32(), binIn.ReadInt32()));
+					}
 				}
 			}
+			catch( Exception e){
+                Console.WriteLine("Hubo un error");
+                Console.WriteLine(e.Message);
+            }
+            finally{
+                Console.WriteLine("");
+            }	
 		}
 		public void GetDepartment(int Depto){
 			IEnumerable<Producto> q =
