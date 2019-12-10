@@ -45,8 +45,8 @@ namespace proyecto_final
 		public void LeerProductosTXT(string archivo){
 			try
 			{			
-				FileStream fs1=new FileStream(archivo,FileMode.Open,FileAccess.Read);
-				using(StreamReader txtOut=new StreamReader(fs1)){
+				FileStream fs1=new FileStream(archivo,FileMode.Open,FileAccess.Read);//crea
+				using(StreamReader txtOut=new StreamReader(fs1)){//transcribe
 					string line;				
 					while((line = txtOut.ReadLine()) != null){//para que valla checando renglon x renglon
 						string[] columnas = line.Split("|");//para dividir el constructor
@@ -66,7 +66,7 @@ namespace proyecto_final
 			try
 			{
 				FileStream fs=new FileStream(archivo,FileMode.OpenOrCreate,FileAccess.Write);
-				using(BinaryWriter binOut=new BinaryWriter(fs)){//Crea un escritor para el archivo
+				using(BinaryWriter binOut=new BinaryWriter(fs)){
 					foreach(Producto p in productos){
 						binOut.Write(p.codigo);
 						binOut.Write(p.descripcion);
@@ -103,9 +103,9 @@ namespace proyecto_final
             }	
 		}
 		public void GetDepartment(int Depto){
-			IEnumerable<Producto> q =
+			IEnumerable<Producto> q =//enumera los productos
 			from p in productos
-			where p.departamento == Depto
+			where p.departamento == Depto //compara
 			select p;
 			Console.WriteLine("departamento: "+Depto);
 			foreach(Producto p in q) {
