@@ -1,0 +1,13 @@
+	/*public void OrdenarLikes() {
+			IEnumerable<Producto> pds =
+				from p in productos
+				orderby p.likes
+				select p;
+			Console.WriteLine("Se mostraran los productos en orden de likes:");
+			foreach(Producto p in pds) {
+				Console.WriteLine("{0},{1},{2},{3},{4}",p.codigo,p.descripcion,p.precio,p.departamento,p.likes);
+			}
+		}*/
+
+
+        //o.OrdenarLikes();
