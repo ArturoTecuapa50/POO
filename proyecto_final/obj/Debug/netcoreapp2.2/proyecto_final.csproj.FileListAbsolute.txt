@@ -9,3 +9,13 @@ C:\Users\Dell\Desktop\POO\proyecto_final\bin\Debug\netcoreapp2.2\proyecto_final.
 C:\Users\Dell\Desktop\POO\proyecto_final\bin\Debug\netcoreapp2.2\proyecto_final.pdb
 C:\Users\Dell\Desktop\POO\proyecto_final\obj\Debug\netcoreapp2.2\proyecto_final.dll
 C:\Users\Dell\Desktop\POO\proyecto_final\obj\Debug\netcoreapp2.2\proyecto_final.pdb
+C:\Users\ITT\Documents\GitHub\POO\proyecto_final\bin\Debug\netcoreapp2.2\proyecto_final.deps.json
+C:\Users\ITT\Documents\GitHub\POO\proyecto_final\bin\Debug\netcoreapp2.2\proyecto_final.runtimeconfig.json
+C:\Users\ITT\Documents\GitHub\POO\proyecto_final\bin\Debug\netcoreapp2.2\proyecto_final.runtimeconfig.dev.json
+C:\Users\ITT\Documents\GitHub\POO\proyecto_final\bin\Debug\netcoreapp2.2\proyecto_final.dll
+C:\Users\ITT\Documents\GitHub\POO\proyecto_final\bin\Debug\netcoreapp2.2\proyecto_final.pdb
+C:\Users\ITT\Documents\GitHub\POO\proyecto_final\obj\Debug\netcoreapp2.2\proyecto_final.csprojAssemblyReference.cache
+C:\Users\ITT\Documents\GitHub\POO\proyecto_final\obj\Debug\netcoreapp2.2\proyecto_final.AssemblyInfoInputs.cache
+C:\Users\ITT\Documents\GitHub\POO\proyecto_final\obj\Debug\netcoreapp2.2\proyecto_final.AssemblyInfo.cs
+C:\Users\ITT\Documents\GitHub\POO\proyecto_final\obj\Debug\netcoreapp2.2\proyecto_final.dll
+C:\Users\ITT\Documents\GitHub\POO\proyecto_final\obj\Debug\netcoreapp2.2\proyecto_final.pdb
