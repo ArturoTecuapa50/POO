@@ -11,7 +11,7 @@ namespace proyecto_final
 		public decimal precio;
 		public int departamento;
 		public int likes;
-		public Producto(string c,string desc,decimal p, int dep, int l)
+		public Producto(string c,string desc,decimal p, int dep, int l)//constructor
 		{
 			codigo=c;
 			descripcion=desc;
@@ -23,7 +23,7 @@ namespace proyecto_final
 	}
 	class ProductoArchivo
 	{
-		public List<Producto> productos = new List<Producto>();
+		public List<Producto> productos = new List<Producto>();//declarada publica para 
 		public void EscribeProductosTXT(string archivo){
 			try
 			{
@@ -117,8 +117,9 @@ namespace proyecto_final
 			}
 		}		
 		public void imprime(){
+			Console.WriteLine("los productos son :");
 			foreach(Producto p in productos){
-                Console.WriteLine("{0},|{1}|{2}|{3}|{4}",p.codigo,p.descripcion,p.precio,p.departamento,p.likes);
+                Console.WriteLine("{0},|{1},|{2},|{3},|{4}",p.codigo,p.descripcion,p.precio,p.departamento,p.likes);
             }
 		}
 	}
